@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(30, 14, 48); */
+    background-image: linear-gradient(to right, rgb(24, 14, 70),rgb(48, 50, 187));
+    color: white;
+    padding: 18px ;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+nav ul li{
+    font-family: "Playfair Display", serif;
+    list-style-type: none;
+    font-size: 17px;
+}
+
+nav .logo{
+    font-family: "Playwrite AU TAS", cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero{
+    background-image: linear-gradient(to right, rgb(193, 234, 234),rgb(113, 124, 181));
+    background-color: rgb(232, 242, 247);
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    font-family: "Roboto", sans-serif;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-left .one{
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(22, 8, 86);
+    font-weight: bolder;
+    
+}
+
+
+.hero-left .two{
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.bold{
+    font-weight: bold;
+}
+
+.image{
+    height: auto;
+    width: 200px;
+    border-radius: 14px;
+}
+
+.btn{
+    /* background-image: linear-gradient(to right, rgb(76, 40, 109),rgb(207, 83, 207)); */
+    background-color: rgb(52, 54, 80);
+    color:blanchedalmond ;
+    padding: 7px;
+    border: 2px solid rgb(58, 57, 100);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    margin: 0 2px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(81, 81, 155);
+}
+
+.button-container{
+    padding: 7px 0;
+    
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right,rgb(181,181,245),rgb(133, 235, 169));
+    font-family: "Roboto", sans-serif;
+    /* flex-direction: row-reverse; */
+    border-top: 2px solid rgb(138, 155, 203);
+    padding: 22px 100px;
+}
+
+.project-image img{
+    width : 29.5vw;
+    height: auto;
+    margin: 35px;
+    /* padding: 69px 12px; */
+    border-radius: 20px;
+}
+
+.project-info{
+    display: flex;
+    flex-direction: column;
+    padding: 42px;
+}
+
+.project-info .text{
+    font-size: 27px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.project-info p{
+    padding: 12px 0;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+footer{
+    background-color: rgb(17, 8, 17);
+    color: white;
+    padding:20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 774px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        gap: 12px;
+    }
+
+    .hero-left{
+        align-items: center;
+    }
+
+    .project{
+        padding: 1px;
+    }
+
+    .image{
+        height: 120px;
+        width: 120px;
+    }
+}

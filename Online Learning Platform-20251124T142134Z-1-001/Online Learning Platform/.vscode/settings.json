@@ -1,0 +1,16 @@
+{
+    "liveServer.settings.port": 5501,
+    "java.project.sourcePaths": [
+        "Controller"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Program Files\\javafx-sdk-21.0.7\\lib\\javafx-swt.jar",
+        "c:\\Program Files\\javafx-sdk-21.0.7\\lib\\javafx.web.jar",
+        "c:\\Program Files\\javafx-sdk-21.0.7\\lib\\javafx.swing.jar",
+        "c:\\Program Files\\javafx-sdk-21.0.7\\lib\\javafx.media.jar",
+        "c:\\Program Files\\javafx-sdk-21.0.7\\lib\\javafx.graphics.jar",
+        "c:\\Program Files\\javafx-sdk-21.0.7\\lib\\javafx.fxml.jar",
+        "c:\\Program Files\\javafx-sdk-21.0.7\\lib\\javafx.controls.jar",
+        "c:\\Program Files\\javafx-sdk-21.0.7\\lib\\javafx.base.jar"
+    ]
+}
